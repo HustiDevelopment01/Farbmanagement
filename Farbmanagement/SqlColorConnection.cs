@@ -16,7 +16,7 @@ namespace Farbmanagement
         private string server;
         private string database;
         private string uid;
-        private string password;
+        private string passwordnr1;
         private MySqlConnection connection;
         
         public SqlColorConnection()
@@ -24,7 +24,7 @@ namespace Farbmanagement
             server = "rdbms.strato.de";
             database = "Mitarbeiter";
             uid = "U4296652";
-            password = "TNRH_2020!";
+            passwordnr1 = "TNRH_2020!";
 
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
